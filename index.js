@@ -4,7 +4,7 @@ const express = require('express');
     const app = express();
     var bodyParser = require('body-parser');
 
-    const base_url = "10.104.12.104";
+    const base_url = "http://10.104.12.104";
 
     app.set("views",path.join(__dirname,"/public/views"));
     app.set('view engine','ejs');
